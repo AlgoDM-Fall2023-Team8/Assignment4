@@ -233,7 +233,7 @@ def Image_Match():
     # Streamlit UI
 
     st.write("Upload your image:")
-    user_image = st.file_uploader("", type=["jpg", "jpeg", "png"])
+    user_image = st.file_uploader("Your image", type=["jpg", "jpeg", "png"])
     if user_image:
         search_similar_images(user_image, image_style_embeddings, images)
     pass
