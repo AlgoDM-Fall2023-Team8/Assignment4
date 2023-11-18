@@ -128,3 +128,5 @@ wcwidth
 Werkzeug==3.0.1
 wrapt==1.14.1
 zipp
+opencv-python-headless==4.5.4.60
+
