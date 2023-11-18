@@ -27,8 +27,7 @@ def Image_Match():
     import scipy as sc
 
 
-    st.title("Explore Image Styles")
-
+    
 
 
     import streamlit as st
@@ -42,6 +41,7 @@ def Image_Match():
 
     # Use the directory_path in the glob function
     image_paths = glob.glob(f'{directory_path}/*.jpg')
+    st.title("Assignment 4 ")
 
     # Rest of the code remains the same
     #st.write(f'Found [{len(image_paths)}] images')
@@ -231,7 +231,7 @@ def Image_Match():
             st.image(images[image_path], caption=f"Distance: {distance}", use_column_width=True)
 
     # Streamlit UI
-    st.title("Image Style Search")
+
     st.write("Upload your image:")
     user_image = st.file_uploader("", type=["jpg", "jpeg", "png"])
     if user_image:
