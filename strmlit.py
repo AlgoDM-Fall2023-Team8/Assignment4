@@ -152,7 +152,7 @@ def Image_Match():
 
     def load_vgg19_model():
         vgg = tf.keras.applications.VGG19(include_top=False, weights=None)
-        vgg.load_weights('vgg19_weights.h5')
+        vgg.load_weights('source/vgg19_weights.h5')
         return vgg
 
     # Load the VGG19 model
@@ -290,7 +290,7 @@ def Image_Search_by_Text():
         text_features = encode_search_query(search_query)
         return find_best_matches(text_features, image_features, image_ids, results_count)
 
-    images_path = Path("Apparel\Apparel\Boys\Images\images_with_product_ids")
+    images_path = Path("images_with_product_ids")
 
     if st.button("Search"):
         if search_query:
