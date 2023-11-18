@@ -4,49 +4,47 @@
 )
 
 
-Project Summary: Fashion Image Retrieval with CLIP Model Integration
+# Project Summary: 
+ Fashion Image Retrieval with CLIP Model Integration
 
-Objective:
-Build an image retrieval system for fashion images using text and image similarity searches, integrating the CLIP (Contrastive Language–Image Pre-training) model.
+# Objective:
+ an image retrieval system for fashion images using text and image similarity searches, integrating the CLIP (Contrastive Language–Image Pre-training) model.
 
 
 
-Environment Setup
+# Environment Setup
 Python 3.9.18
 Create and Activate Conda Environment (OR, use any other Python environment with Python 3.9.18)
 
 
-Python library packages:
-scikit-learn (version 1.3.0)
-pandas
-numpy
-matplotlib
-seaborn
-streamlit
+## Python library packages:
+- scikit-learn (version 1.3.0)
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- streamlit
 
-Create Conda Environment:
+#### Create Conda Environment:
 Open a Terminal/Command Prompt:
 
 Open your system's terminal or command prompt.
-Create a Conda Environment:
 
-Run the following command to create a new Conda environment named "myenv" with Python 3.9.18:
 
-bash
 conda create --name myenv python=3.9.18
 Replace "myenv" with your preferred environment name.
 
-Activate the Conda Environment:
+#### Activate the Conda Environment:
 
-Activate the newly created environment:
 
-conda activate myenv Add then install all the requirements.txt 
-ChatGPT
-Certainly! After creating and activating your Conda environment, you can proceed to install the dependencies listed in your requirements.txt file. Here are the steps:
-
-Activate the Conda Environment:
 conda activate myenv
-Install Dependencies from requirements.txt:
+#### install all the requirements.txt 
+ After creating and activating your Conda environment, you can proceed to install the dependencies listed in your requirements.txt file. Here are the steps:
+
+#### Activate the Conda Environment:
+conda activate myenv
+
+#### Install Dependencies from requirements.txt:
 Assuming you have a requirements.txt file in your project directory, you can use the following command to install the dependencies:
 
 
